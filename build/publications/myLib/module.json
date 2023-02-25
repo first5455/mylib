@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.example",
+    "module": "mylib",
+    "version": "1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mylib-1.2-SNAPSHOT.jar",
+          "url": "mylib-1.2-SNAPSHOT.jar",
+          "size": 967,
+          "sha512": "bdbe6f7fd0e8607078b92746ad523cc86fc35c2f6c831a206446c93742e5a403a92acbc8a52304d1b18aac99f36e95d7ce939809030e912f006261e643a9eea6",
+          "sha256": "4399503cbe0632442416544da9af7f1baf9c322037b7ebd2761f43cd49ef4a23",
+          "sha1": "3b742ff7ebc3123cb9526ffa684e98b34339d773",
+          "md5": "814e926b102703b89387a50376069a83"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mylib-1.2-SNAPSHOT.jar",
+          "url": "mylib-1.2-SNAPSHOT.jar",
+          "size": 967,
+          "sha512": "bdbe6f7fd0e8607078b92746ad523cc86fc35c2f6c831a206446c93742e5a403a92acbc8a52304d1b18aac99f36e95d7ce939809030e912f006261e643a9eea6",
+          "sha256": "4399503cbe0632442416544da9af7f1baf9c322037b7ebd2761f43cd49ef4a23",
+          "sha1": "3b742ff7ebc3123cb9526ffa684e98b34339d773",
+          "md5": "814e926b102703b89387a50376069a83"
+        }
+      ]
+    }
+  ]
+}
